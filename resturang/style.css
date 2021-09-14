@@ -1,0 +1,104 @@
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+
+
+}
+nav ul{
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding:10px;
+    height: 3rem; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+  
+}
+nav li {
+    width: 10rem;
+    text-align: center;
+    margin-bottom: .2rem;
+    margin-right: .0.2rem;
+    background-color:#000000;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    /* border: solid 1px #232F3E; */
+    color: white;
+    display: block;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+
+}
+
+nav a:hover{
+  border: green;
+
+}
+
+.index{
+background-image: url(image-asset.jpeg);
+background-size: cover;
+}
+body {
+    background-color: grey;
+}
+
+.meny {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+
+
+}
+.mat {
+height: 100px;
+width: 100px;
+/* flex-shrink: 0; */
+object-fit: cover;
+float: left;
+}
+
+.menybeskrivning {
+ font-size: 1rem;
+ color: white;
+}
+
+ 
+.container2 {
+    max-width: 56rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+
+}
+
+.menu-item-name {
+    color: black;
+}
+.menu-item-price {
+    color: rgb(22, 1, 1);
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.menyheader {
+    font-size: 5rem;
+    color: rgb(20, 209, 137);
+    /* border: solid 3px blue;; */
+}
+
+.item {
+    width: 10rem;
+    box-sizing:border-box;
+    margin: 2rem;
+}
